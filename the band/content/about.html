@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- offline link -->
+    <!-- <link rel="stylesheet" href="C:\Users\rahul\Downloads\Bootstrap\bootstrap-5.0.1-dist\css\bootstrap.css"> -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <title>John mc</title>
+
+    <style>
+        body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("https://images.unsplash.com/photo-1601638058835-43cc7efe2d43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+ .btn.btn-1:hover{
+opacity: 0.9;
+color: white;
+} 
+    </style>
+
+
+
+  </head>
+   
+    <body class="text-white" style="background: rgba(0, 0, 0,0.8);">
+
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand h1" href="#">The Band</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-sm-center mx-2" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our music</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Up coming shows</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+          <div class="hero-image mt-5 bg-secondary.bg-gradient">
+            <div class="hero-text">
+              <h1 style="font-size:50px">I am John Doe</h1>
+              <p>And I'm a Photographer</p>
+              <button>Hire me</button>
+            </div>
+          </div>
+          
+
+        <div class="bg-dark text-secondary px-4 py-5 text-center">
+            <div class="py-5">
+              <h1 class="display-5 fw-bold text-white">Welcome</h1>
+              <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                  <button type="button" class="btn btn-1 btn-outline-info btn-lg px-4 me-sm-3 fw-bold bg-warning border-0 text-dark">Custom button</button>
+                  <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <section class="bg-white p-5">
+            <div class="row row-cols-1 row-cols-md-3 g-4 text-dark">
+                <div class="col">
+                  <div class="card h-100 border-0">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title h1">UPCOMING NEWS</h5>
+                      <p class="card-text fw-bold">3 upcoming IPOs to hit the stock market next week</p>
+                      <p class="card-text">The IPO are back to hit the primary market by next week with three companies i.e.
+                        Shyam Metalics, Sona Comstar and Navoday Enterprises. As these three IPOs will launch on June 14.</p>
+                    </div>
+                    <!-- <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title h1">DID YOU KNOW</h5>
+                      <p class="card-text fw-bold">50 Incredible "Did You Know" Facts That Will Astonish You </p>
+                      <p class="card-text">
+                        New Fun Facts 2021 (and 2020) The best first: In the winter, the Eiffel Tower shrinks by 15 centimeters.
+                         In the 18th century, Benjamin Lay temporarily kidnapped the child of a slave-owner.Sharks can grow up to 50,000 teeth in their lifetime.
+                        </p>
+                    </div>
+                    <!-- <div class="card-footer">
+                      <small class="text-muted">Last updated 3 mins ago</small>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 border-0">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <div class="card-body">
+                      <h5 class="card-title h1 w-50">TOUR DATES</h5>
+                      <p class="card-text fw-bold">The Eagles Reveal New ‘Hotel California’ Tour Dates for 2021
+                       </p>
+                      <p class="card-text">
+                        The Eagles have added new dates to their rescheduled Hotel California Tour for 2021.
+                         The iconic country-rock group have added six new dates to the dates they'd already announced.
+                    </p>
+                    </div>
+                    <!-- <div class="card-footer">
+                      <small class="text-muted">TOUR DATES</small>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+          </section>
+
+
+          <section class="bg-warning p-5">
+
+              <div class="about-title text-dark">
+                <h2 class="text-center">MEDIA</h2>
+              </div>
+
+              <div class="row row-cols-1 row-cols-sm-2 g-4 mx-5 my-3">
+                <div class="col">
+                  <div class="card h-100 bg-transparent text-dark border-0">
+                    <img src="https://images.unsplash.com/photo-1543079516-9e32af4a33e1?ixid=
+                    MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fG1hbiUyMHdpdGglMjBndWl0YXJ8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto
+                    =format&fit=crop&w=500&q=60" class="card-img-top" alt="guitar">
+                    <div class="card-body px-0">
+                      <h5 class="card-title h-3">Television</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 bg-transparent text-dark border-0">
+                    <img src="https://images.unsplash.com/photo-1517911175202-b31c6864ed4a?ixid=MnwxMjA3fDB8MHxzZWFyY
+                    2h8MTl8fG1hbiUyMHdpdGglMjBndWl0YXJ8ZW58MHwwfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q
+                    =60" class="card-img-top" alt="guitar">
+                    <div class="card-body px-0">
+                      <h5 class="card-title h-3">Radio</h5>
+                      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <nav class="navbar navbar-light bg-light p-5">
+            <div class="container justify-content-sm-center px-1 py-2 border border-secondary">
+              <a class="navbar-brand">JOIN MY HUGE MAILING LIST</a>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-1 btn-outline-success bg-warning border-0 text-dark" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+
+          <section class="py-3 text-center">
+            <footer class="footer">
+                <div class="container">
+                  <span class="text-muted">Place sticky footer content here.</span>
+                </div>
+              </footer>
+          </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
